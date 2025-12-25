@@ -48,6 +48,7 @@ agent/venv/
 *.pth
 *.bin
 *.model
+agent.zip
 
 # Build outputs
 dist/
@@ -61,3 +62,4 @@ client/build/
 # Storage and data files (optional - uncomment if needed)
 # storage/
 # blockchain_data.json
+.git_backup/
