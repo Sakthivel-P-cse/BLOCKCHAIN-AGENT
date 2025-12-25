@@ -1,34 +1,62 @@
-# Dependencies
-node_modules/
-.venv/
+# Python
 __pycache__/
-*.pyc
-
-# Environment variables
-.env
-.env.local
-
-# Build files
-dist/
+*.py[cod]
+*$py.class
+*.so
+.Python
 build/
-*.pth
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+env/
 
-# OS files
-.DS_Store
-Thumbs.db
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
+.DS_Store
 
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Environment
+.env
+.env.local
+.env.*.local
 
-# Temporary files
-*.tmp
-temp/
+# Large files (use Git LFS for these)
+*.pth
+*.bin
+*.model
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# React
+client/dist/
+client/build/
+
+# Storage and data files (optional - uncomment if needed)
+# storage/
+# blockchain_data.json
