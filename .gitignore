@@ -63,3 +63,4 @@ client/build/
 # storage/
 # blockchain_data.json
 .git_backup/
+unpushed_files_backup.tar.gz
